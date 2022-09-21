@@ -1,15 +1,15 @@
 import "./footer.css";
 const Footer = () => {
 	return (
-		<div className="footer">
-			<div className="contain">
-				<div className="col">
+		<div className="footer ">
+			<div className="contain box-geral-esquerda">
+				<div className="col box-texto">
 					<h1>Quem somos</h1>
 					<ul>
 						<li>O violeta</li>
 					</ul>
 				</div>
-				<div className="col">
+				<div className="col box-texto">
 					<h1>Institucional</h1>
 					<ul>
 						<li>Entregas</li>
@@ -25,7 +25,7 @@ const Footer = () => {
 						<li>Área do colaborador</li>
 					</ul>
 				</div>
-				<div className="col">
+				<div className="col box-textos">
 					<h1>Formas de pagamento</h1>
 					<ul>
 						<li>Formas de pagamento site</li>

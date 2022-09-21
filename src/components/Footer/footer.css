@@ -3,34 +3,36 @@
     position: relative;
     height: auto;
     background-color: #f3f3f3;
+
 }
 
 .footer .col {
-    width: 400px;
+    width: 350px;
     height: auto;
     display: inline-table;
-
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 0px 40px 20px 20px;
+    padding: 0px 20px 15px 100px;
+
 }
 
 .footer .col h1 {
-    margin: 0;
+    margin: 6px 0px;
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 10px;
     padding: 20px 0px 5px 0px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    border-bottom: solid 4px #464573;
+
 }
 
 .footer .col ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 
 .footer .col ul li {
@@ -41,6 +43,7 @@
     transition: .2s;
     -webkit-transition: .2s;
     -moz-transition: .2s;
+    line-height: 15px;
 }
 
 .social ul li {
@@ -54,6 +57,45 @@
     -webkit-transition: .1s;
     -moz-transition: .1s;
 }
+
+.box-geral-esquerda div.box-texto h1,
+.box-geral-direita div.box-texto h1 {
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    position: relative;
+}
+
+.box-geral-esquerda div.box-texto h1:before {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #464573;
+    border-radius: 50px;
+    width: 70px;
+    left: 0;
+    bottom: 0
+}
+
+
+.box-geral-esquerda div.box-textos h1,
+.box-geral-direita div.box-textos h1 {
+    font-size: px;
+    color: #000000;
+    line-height: 20px;
+    position: relative;
+}
+
+.box-geral-esquerda div.box-textos h1:before {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #464573;
+    border-radius: 50px;
+    width: 138px;
+    left: 0;
+    bottom: 0;
+
+}
+
 
 .clearfix {
     clear: both;
